@@ -12,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 100px;
+    height: 50px;
     background-color: #5450ff;
 }
 
@@ -20,7 +20,7 @@
     text-decoration: none;
     color: #fff;
     font-style: none;
-    font-size: 30px;
+    font-size: 15px;
     cursor: default;
     font-family: "Inconsolata", monospace;
     font-optical-sizing: auto;
