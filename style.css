@@ -1,8 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #5450ff;
+}
+
+.route {
+    text-decoration: none;
+    color: #fff;
+    font-style: none;
+    font-size: 30px;
+    cursor: default;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+.route span:hover {
+    color: #111111;
+    cursor: pointer;
 }
 
 .portfolio {
